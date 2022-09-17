@@ -1,0 +1,67 @@
+
+body {
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+.contenedor {
+    display: flex; /* Va a ser flexible a lo que hagamos */
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(U-Envigado.jpg);
+    background-size: cover; /*expandir al tamño de toda la pantalla*/
+    background repeat: no-repeat;
+}
+
+.foto {
+    border-radius: 360px;
+    width: 250px;
+}
+
+.caja1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.caja2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 200px;
+    background-color: rgb(49, 119, 224);
+    border-radius: 25px;
+    margin: 15px;
+    padding: 25px;
+}
+
+.caja3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 20%;
+    background-color: aqua;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 25px;
+}
+
+.caja4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 30%;
+    background-color: rgb(44, 88, 155);
+    border-radius: 25px;
+    margin: 15px;
+    padding: 25px;
+}
+
+.logos {
+    width: 30%;
+}
